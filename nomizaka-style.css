@@ -1,6 +1,3 @@
-html,
-head,
-body,
 div#contents {
 	height: 100vh;
 	box-sizing: border-box
@@ -12,7 +9,6 @@ div#contents {
 	border: 0;
 	padding: 1rem;
 	margin: 0 auto;
-	font-size: 90%;
 	background-color: white;
 	font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', "Hiragino Sans", Meiryo, sans-serif;
 }
@@ -25,4 +21,17 @@ footer {
 body {
 	background-color: #e39182;
 	margin: 0px;
+}
+
+.timeline li {
+	font-family: monospace;
+	/* 桁が揃うフォント */
+	text-indent: -11ch;
+	/* 左に出す分 */
+	padding-left: 11ch;
+	/* 本文の開始位置 */
+}
+
+h1#center {
+	text-align: center;
 }
