@@ -1,0 +1,28 @@
+html,
+head,
+body,
+div#contents {
+	height: 100vh;
+	box-sizing: border-box
+}
+
+div#contents {
+	width: 1000px;
+	min-height: 100%;
+	border: 0;
+	padding: 1rem;
+	margin: 0 auto;
+	font-size: 90%;
+	background-color: white;
+	font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', "Hiragino Sans", Meiryo, sans-serif;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+}
+
+body {
+	background-color: #e39182;
+	margin: 0px;
+}
