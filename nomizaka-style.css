@@ -24,7 +24,7 @@ body {
 }
 
 .timeline li {
-	font-family: monospace;
+	/* font-family: monospace; */
 	/* 桁が揃うフォント */
 	text-indent: -11ch;
 	/* 左に出す分 */
